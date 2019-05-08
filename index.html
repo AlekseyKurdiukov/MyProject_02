@@ -1,98 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
-  <link rel="stylesheet" href="css/main.css" type="text/css">
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
   <title>Company NAME</title>
 </head>
 <body>
   <div class="min_wid">
-    <header>
-      <div class="header blok_size clearfix">
-        <div class="header_one clearfix">
-          <a href="#" class="logo">BIRUANG</a>
-          <div class="phone_and_by clearfix">
-            <span class="phone"><img src="img/phone-icon.png" alt=""> +371 282 20 760</span>
-            <div class="by">
-              <img src="img/by-icon.png" alt="">
-              $ 99.54
-              <a href="#" class="Checkout">Checkout</a>
-            </div>
+    <header class="header_main blok_size">
+      <div class="header_main__header_one clearfix">
+        <a href="#" class="header_one__logo">BIRUANG</a>
+        <div class="header_one__phone_and_by clearfix">
+          <span class="phone_and_by__phone"><img src="img/phone-icon.png" alt=""> +371 282 20 760</span>
+          <div class="phone_and_by__by">
+            <img src="img/by-icon.png" alt="">
+            $ 99.54
+            <a href="#" class="phone_and_by__Checkout">Checkout</a>
           </div>
-        </div>
-        <div class="header_two">
-          <nav class="navi">
-            <ul class="navigation clearfix">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">MEN</a></li>
-              <li><a href="#">WOMEN</a></li>
-              <li><a href="#">KIDS</a></li>
-              <li><a href="#">SALE</a></li>
-              <li><a href="#">ABOUT US</a></li>
-              <li><a href="#">SUPPORT</a></li>
-            </ul>
-          </nav>
-          <form class="poisk" action="index.html" method="post">
-            <input type="image" src="img/search-icon.png" name="" value="">
-            <input type="search" name="" value="" placeholder="Search...">
-          </form>
         </div>
       </div>
+      <div class="header_main__header_two">
+        <nav class="navigation_main">
+          <ul class="navigation_user clearfix">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">KIDS</a></li>
+            <li><a href="#">SALE</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SUPPORT</a></li>
+          </ul>
+        </nav>
+        <form class="header_two__poisk" action="index.html" method="post">
+          <input type="image" src="img/search-icon.png" name="" value="">
+          <input type="search" name="" value="" placeholder="Search...">
+        </form>
+      </div>
     </header>
-    <section class="slider">
-      <div class="blok_size">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <h2>RIGHT IS PINK.<br>
-                  LEFT IS BLUE
-              </h2>
-              <p>
-                Inspired by Brasil’s bold colors and matching up to football’s on-pitch <br>
-                playmakers, these kicks are ready to stand out.
-              </p>
-              <img src="img/img33.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <h2>RIGHT IS PINK.<br>
-                  LEFT IS BLUE
-              </h2>
-              <p>
-                Inspired by Brasil’s bold colors and matching up to football’s on-pitch <br>
-                playmakers, these kicks are ready to stand out.
-              </p>
-              <img src="img/img33.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <h2>RIGHT IS PINK.<br>
-                  LEFT IS BLUE
-              </h2>
-              <p>
-                Inspired by Brasil’s bold colors and matching up to football’s on-pitch <br>
-                playmakers, these kicks are ready to stand out.
-              </p>
-              <img src="img/img33.png" class="d-block w-100" alt="...">
-            </div>
+    <section class="slider_main blok_size">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>RIGHT IS PINK.<br>
+                LEFT IS BLUE
+            </h2>
+            <p>
+              Inspired by Brasil’s bold colors and matching up to football’s on-pitch <br>
+              playmakers, these kicks are ready to stand out.
+            </p>
+            <img src="img/img33.png" class="d-block w-100" alt="...">
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div class="carousel-item">
+            <h2>RIGHT IS PINK.<br>
+                LEFT IS BLUE
+            </h2>
+            <p>
+              Inspired by Brasil’s bold colors and matching up to football’s on-pitch <br>
+              playmakers, these kicks are ready to stand out.
+            </p>
+            <img src="img/img33.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <h2>RIGHT IS PINK.<br>
+                LEFT IS BLUE
+            </h2>
+            <p>
+              Inspired by Brasil’s bold colors and matching up to football’s on-pitch <br>
+              playmakers, these kicks are ready to stand out.
+            </p>
+            <img src="img/img33.png" class="d-block w-100" alt="...">
+          </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </section>
     <section class="news">

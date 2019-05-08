@@ -46,12 +46,12 @@ outline: none;
 
 /* Шапка сайта */
 
-.header_one {
+.header_main__header_one {
   padding: 25px 0;
   border-bottom: 1px solid #eeeeee;
 }
 
-  .logo {
+  .header_one__logo {
     font-size: 1.375em;
     color: #67686d;
     font-family: 'Open Sans', sans-serif;
@@ -61,11 +61,11 @@ outline: none;
     top: 5px;
   }
 
-  .phone_and_by {
+  .header_one__phone_and_by {
     float: right;
   }
 
-    .phone {
+    .phone_and_by__phone {
       float: left;
       font-size: 0.75em;
       color: #7e7f84;
@@ -74,13 +74,13 @@ outline: none;
       padding: 10px 20px;
     }
 
-      .phone img {
+      .phone_and_by__phone img {
         position: relative;
         top: 4px;
         margin-right: 5px;
       }
 
-    .by {
+    .phone_and_by__by {
       float: left;
       font-size: 0.75em;
       color: #7e7f84;
@@ -90,13 +90,13 @@ outline: none;
       border: 1px solid #eeeeee;
     }
 
-      .by img {
+      .phone_and_by__by img {
         margin-right: 5px;
         position: relative;
         top: 3px;
       }
 
-      .Checkout {
+      .phone_and_by__Checkout {
         font-size: 1em;
         color: #7e7f84;
         font-weight: bold;
@@ -106,20 +106,20 @@ outline: none;
         margin-left: 35px;
       }
 
-      .Checkout:hover {
+      .phone_and_by__Checkout:hover {
         text-decoration: underline;
       }
 
-.navigation {
+.navigation_user {
   list-style-type: none;
   float: left;
 }
 
-  .navigation li {
+  .navigation_user li {
     float: left;
   }
 
-    .navigation li a {
+    .navigation_user li a {
       font-family: "Roboto", sans-serif;
       display: block;
       padding: 15px 25px;
@@ -129,26 +129,26 @@ outline: none;
       text-decoration: none;
     }
 
-    .navigation li a:hover {
+    .navigation_user li a:hover {
       color: #f45a40;
     }
 
-    .navigation li a:last-child {
+    .navigation_user li a:last-child {
       padding-left: 0;
     }
 
-.poisk {
+.header_two__poisk {
   float: left;
   padding: 15px 20px;
 }
 
-  .poisk input[type="image"] {
+  .header_two__poisk input[type="image"] {
     position: relative;
     top: 1px;
     margin-right: 5px;
   }
 
-  .poisk input[type="search"] {
+  .header_two__poisk input[type="search"] {
     font-family: "Roboto Light", sans-serif;
     font-size: 0.875em;
     color: #7e7f84;
@@ -157,7 +157,7 @@ outline: none;
 
 /* Слайдер */
 
-.slider {
+.slider_main {
   margin-bottom: 50px;
 }
 
