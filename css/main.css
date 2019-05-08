@@ -319,13 +319,13 @@ outline: none;
   margin-bottom: 35px;
 }
 
-  .about_text {
+  .about__text {
     float: left;
     width: 59.829%;
     line-height: 1.3em;
   }
 
-    .about_text p {
+    .about__text p {
       color: #7e7f84;
       font-size: 0.875em;
       font-style: italic;
@@ -333,7 +333,7 @@ outline: none;
       margin-bottom: 25px;
     }
 
-  .about_map {
+  .about__map {
     float: right;
     width: 34.188%;
   }
@@ -354,26 +354,26 @@ outline: none;
 
 /* Форма ввода email */
 
-.footer_form {
+.form_email {
   background-color: #f45a40;
   margin-top: 35px;
 }
 
-  .footer_form_text {
+  .form_email__text {
     float: left;
     color: white;
     text-transform: uppercase;
     font-size: 1.375em;
     font-family: "Roboto Condensed", sans-serif;
-    padding: 30px 0;
+    padding: 31px 0;
   }
 
-  .footer_form_forma {
+  .form_email__forma {
     float: right;
-    padding: 23px 0;
+    padding: 22px 0;
   }
 
-   .footer_form_forma input[type="email"] {
+   .form_email__forma input[type="email"] {
     color: #7e7f84;
     font-size: 0.875em;
     font-family: "Roboto", sans-serif;
@@ -385,7 +385,7 @@ outline: none;
     margin-right: 20px;
    }
 
-   .footer_form_forma input[type="submit"] {
+   .form_email__forma input[type="submit"] {
     background-color: #ff674f;
     color: white;
     font-size: 0.875em;
@@ -398,103 +398,103 @@ outline: none;
 
 /* Подвал */
 
-.footer {
+.footer_main {
   background-color: #2a2d34;
   padding: 45px 0;
 }
 
-.footer_blok {
-  float: left;
-  width: 23.076%;
-  margin-right: 2.5653%;
-  line-height: 1.3em;
-}
-
-.footer_blok:last-child {
-  margin-right: 0;
-}
-
-  .footer_blok h3 {
-    color: #fff;
-    font-size: 1.375em;
-    font-family: "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-  }
-
-  .footer_blok p {
-    color: #7e7f84;
-    font-size: 0.875em;
-    font-family: "Roboto", sans-serif;
-    margin-bottom: 20px;
-  }
-
-  .footer_blok a {
-    color: #fff;
-    font-size: 0.875em;
-    font-family: "Roboto Medium", sans-serif;
-    margin-bottom: 20px;
-    text-decoration: none;
-  }
-
-  .footer_blok a:hover {
-    color: #f45a40;
-    text-decoration: underline;
-  }
-
-  .blok_list {
-    width: 53%;
+   .footer_main__blok {
     float: left;
-    margin-right: 2%;
+    width: 23.076%;
+    margin-right: 2.5653%;
+    line-height: 1.3em;
   }
 
-  .blok_list:last-child{
-    width: 45%;
+  .footer_main__blok:last-child {
     margin-right: 0;
   }
 
-   .blok_list a {
-     color: #7e7f84;
-     font-size: 0.875em;
-     font-family: "Roboto", sans-serif;
-     display: block;
-     margin-bottom: 0;
-   }
+    .footer_main__blok h3 {
+      color: #fff;
+      font-size: 1.375em;
+      font-family: "Roboto Condensed", sans-serif;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
 
-   .form_footer input[type="email"] {
-     color: #7e7f84;
-     font-size: 0.875em;
-     font-family: "Roboto", sans-serif;
-     text-transform: uppercase;
-     padding: 13px;
-     border: 0;
-     box-sizing: border-box;
-     width: 100%;
-     margin-bottom: 15px;
-   }
+    .footer_main__blok p {
+      color: #7e7f84;
+      font-size: 0.875em;
+      font-family: "Roboto", sans-serif;
+      margin-bottom: 20px;
+    }
 
-   .form_footer textarea {
-     color: #7e7f84;
-     font-size: 0.875em;
-     font-family: "Roboto", sans-serif;
-     text-transform: uppercase;
-     padding: 13px;
-     border: 0;
-     box-sizing: border-box;
-     width: 100%;
-     margin-bottom: 15px;
-   }
+    .footer_main__blok a {
+      color: #fff;
+      font-size: 0.875em;
+      font-family: "Roboto Medium", sans-serif;
+      margin-bottom: 20px;
+      text-decoration: none;
+    }
 
-   .form_footer input[type="submit"] {
-     background-color: #ff674f;
-     color: white;
-     font-size: 0.875em;
-     font-family: "Roboto", sans-serif;
-     text-transform: uppercase;
-     padding: 13px 20px;
-     border: 0;
-     box-sizing: border-box;
-   }
+    .footer_main__blok a:hover {
+      color: #f45a40;
+      text-decoration: underline;
+    }
+
+      .blok_list {
+        width: 53%;
+        float: left;
+        margin-right: 2%;
+      }
+
+      .blok_list:last-child{
+        width: 45%;
+        margin-right: 0;
+      }
+
+       .blok_list a {
+         color: #7e7f84;
+         font-size: 0.875em;
+         font-family: "Roboto", sans-serif;
+         display: block;
+         margin-bottom: 0;
+       }
+
+     .form_footer input[type="email"] {
+       color: #7e7f84;
+       font-size: 0.875em;
+       font-family: "Roboto", sans-serif;
+       text-transform: uppercase;
+       padding: 13px;
+       border: 0;
+       box-sizing: border-box;
+       width: 100%;
+       margin-bottom: 15px;
+     }
+
+     .form_footer textarea {
+       color: #7e7f84;
+       font-size: 0.875em;
+       font-family: "Roboto", sans-serif;
+       text-transform: uppercase;
+       padding: 13px;
+       border: 0;
+       box-sizing: border-box;
+       width: 100%;
+       margin-bottom: 15px;
+     }
+
+     .form_footer input[type="submit"] {
+       background-color: #ff674f;
+       color: white;
+       font-size: 0.875em;
+       font-family: "Roboto", sans-serif;
+       text-transform: uppercase;
+       padding: 13px 20px;
+       border: 0;
+       box-sizing: border-box;
+     }
 
 /* Медиа запросы */
 
