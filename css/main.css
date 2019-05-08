@@ -520,7 +520,7 @@ outline: none;
     line-height: 1.5em;
   }
 
-  .products_blok {
+  .products_blok4 {
     float: left;
     width: 46%;
     margin: 0 2%;
@@ -528,27 +528,27 @@ outline: none;
     margin-bottom: 30px;
   }
 
-  .products_blok:last-child {
+  .products_blok4:last-child {
     margin-right: 2%;
   }
-
-   .products_blok img {
-     width: auto;
-     display: block;
-     margin: 0 auto;
-   }
 
    .img_container {
      font-size: 0;
    }
 
-   .products_content {
+     .img_container img {
+       width: auto;
+       display: block;
+       margin: 0 auto;
+     }
+
+   .products_blok4__content {
      padding: 15px 15px 0 15px;
      border: 0;
      border-top: 0;
    }
 
-     .products_icon {
+     .by__icon {
        float: right;
        width: 16px;
      }
@@ -575,7 +575,7 @@ outline: none;
 }
 
 @media (max-width: 870px) {
-  .news_blok {
+  .news_blok3 {
     float: left;
     width: 96%;
     margin: 0 2%;
@@ -583,12 +583,12 @@ outline: none;
     margin-bottom: 30px;
   }
 
-  .news_blok:last-child {
+  .news_blok3:last-child {
     margin-right: 2%;
     margin-bottom: 0;
   }
 
-    .news_blok img {
+    .news_blok3 img {
       width: auto;
       display: block;
       margin: 0 auto;
@@ -618,13 +618,13 @@ outline: none;
     line-height: 1.5em;
   }
 
-  .footer_form {
+  .form_email {
     background-color: #f45a40;
     margin-top: 35px;
     text-align: center;
   }
 
-    .footer_form_text {
+    .form_email__text {
       float: none;
       color: white;
       text-transform: uppercase;
@@ -634,7 +634,7 @@ outline: none;
       display: block;
     }
 
-    .footer_form_forma {
+    .form_email__forma {
       float: none;
       padding: 0 0 15px 0;
       display: block;
@@ -645,14 +645,14 @@ outline: none;
     margin-left: 2%;
   }
 
-  .about_text {
+  .about__text {
     float: none;
     width: 96%;
     margin: 0 2%;
     line-height: 1.3em;
   }
 
-  .about_map {
+  .about__map {
     float: none;
     width: 96%;
     margin: 0 2%;
@@ -660,12 +660,12 @@ outline: none;
 }
 
 @media (max-width: 696px) {
-  .navi {
+  .navigation_main {
     margin: 0 auto;
     display: table;
   }
 
-  .poisk {
+  .header_two__poisk {
     float: none;
     padding: 15px 20px;
     margin: 0 auto;
@@ -695,7 +695,7 @@ outline: none;
     line-height: 1.5em;
   }
 
-  .products_blok {
+  .products_blok4 {
     float: left;
     width: 96%;
     margin: 0 2%;
@@ -714,35 +714,35 @@ outline: none;
 }
 
 @media (max-width: 487px) {
-  .navigation li {
+  .navigation_user li {
     float: none;
     text-align: center;
   }
 
-  .navigation li a{
-    padding: 15px 0;
-  }
+    .navigation_user li a{
+      padding: 15px 0;
+    }
 
-  .logo {
+  .header_one__logo {
     float: none;
     top: 0;
     display: table;
     margin: 0 auto;
   }
 
-  .phone_and_by {
+  .header_one__phone_and_by {
     float: none;
   }
 
-  .phone {
-    float: none;
-    display: table;
-    margin: 0 auto;
-  }
+    .phone_and_by__phone {
+      float: none;
+      display: table;
+      margin: 0 auto;
+    }
 
-  .by {
-    float: none;
-    display: table;
-    margin: 0 auto;
-  }
+    .phone_and_by__by {
+      float: none;
+      display: table;
+      margin: 0 auto;
+    }
 }
