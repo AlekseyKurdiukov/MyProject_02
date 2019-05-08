@@ -188,33 +188,33 @@ outline: none;
 
 /* Новости */
 
-.news_blok {
+.news_blok3 {
   float: left;
   width: 31.623%;
   margin-right: 2.5655%;
   line-height: 1.3em;
 }
 
-.news_blok:last-child {
+.news_blok3:last-child {
   margin-right: 0;
 }
 
-  .news_blok img {
+  .news_blok3 img {
     width: 100%;
     margin-bottom: 25px;
   }
 
-  .news_blok a {
+  .news_blok3 a {
     font-size: 1.375em;
     font-family: "Roboto Condensed", sans-serif;
     color: #f45a40;
   }
 
-  .news_blok a:hover {
+  .news_blok3 a:hover {
     text-decoration: underline;
   }
 
-  .news_blok p {
+  .news_blok3 p {
     font-size: 0.875em;
     font-family: "Roboto", sans-serif;
     color: #7e7f84;
@@ -224,11 +224,12 @@ outline: none;
 
 /* Продукция */
 
-.products {
+.products_main {
   margin-top: 35px;
+  text-align: center;
 }
 
-  .products h2 {
+  .products_main h2 {
     color: #67686d;
     font-size: 1.375em;
     text-transform: uppercase;
@@ -236,76 +237,76 @@ outline: none;
     margin-bottom: 35px;
   }
 
-.products_blok {
-  float: left;
-  width: 23.076%;
-  margin-right: 2.5653%;
-  line-height: 1em;
-}
+  .products_blok4 {
+    float: left;
+    width: 23.076%;
+    margin-right: 2.5653%;
+    line-height: 1em;
+  }
 
-.products_blok:last-child {
-  margin-right: 0;
-}
+  .products_blok4:last-child {
+    margin-right: 0;
+  }
 
- .products_blok img {
-   width: 100%;
- }
-
- .img_container {
-   font-size: 0;
- }
-
- .products_content {
-   padding: 15px 15px 0 15px;
-   border: 1px solid #eeeeee;
-   border-top: 0;
- }
-
-   .products_content h2 {
-     font-size: 1.125em;
-     color: #67686d;
-     font-family: "Roboto Medium", sans-serif;
-     margin-bottom: 10px;
-     text-transform: uppercase;
+   .img_container {
+     font-size: 0;
    }
 
-   .products_content a:hover {
-     text-decoration: underline;
-     color: #67686d;
+     .img_container img {
+       width: 100%;
+     }
+
+   .products_blok4__content {
+     padding: 15px 15px 0 15px;
+     border: 1px solid #eeeeee;
+     border-top: 0;
    }
 
-   .products_content h3 {
-     font-size: 0.875em;
-     color: #67686d;
-     font-family: "Roboto Light", sans-serif;
-     font-weight: lighter;
-     margin-bottom: 10px;
-     text-transform: uppercase;
-   }
-
-   .products_content p {
-     font-size: 0.625em;
-     color: #67686d;
-     font-family: "Roboto Light", sans-serif;
-     margin-bottom: 10px;
-   }
-
-   .products_by {
-     padding: 12px 0;
-     border-top: 1px solid #eeeeee;
-   }
-
-     .products_ctoim {
-       float: left;
-       font-size: 0.875em;
-       color: #f45a40;
+     .products_blok4__content h2 {
+       font-size: 1.125em;
+       color: #67686d;
        font-family: "Roboto Medium", sans-serif;
+       margin-bottom: 10px;
+       text-transform: uppercase;
      }
 
-     .products_icon {
-       float: right;
-       width: 14px;
+     .products_blok4__content a:hover {
+       text-decoration: underline;
+       color: #67686d;
      }
+
+     .products_blok4__content h3 {
+       font-size: 0.875em;
+       color: #67686d;
+       font-family: "Roboto Light", sans-serif;
+       font-weight: lighter;
+       margin-bottom: 10px;
+       text-transform: uppercase;
+     }
+
+     .products_blok4__content p {
+       font-size: 0.625em;
+       color: #67686d;
+       font-family: "Roboto Light", sans-serif;
+       margin-bottom: 10px;
+     }
+
+     .products_blok4__by {
+       padding: 12px 0;
+       border-top: 1px solid #eeeeee;
+     }
+
+       .by__ctoim {
+         float: left;
+         font-size: 0.875em;
+         color: #f45a40;
+         font-family: "Roboto Medium", sans-serif;
+       }
+
+       .by__icon {
+         float: right;
+         width: 18px;
+       }
 
 /* Информация */
 
