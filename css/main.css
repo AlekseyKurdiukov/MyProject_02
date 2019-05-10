@@ -54,7 +54,7 @@ outline: none;
   .header_one__logo {
     font-size: 1.375em;
     color: #67686d;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Myriad Pro", 'Open Sans', sans-serif;
     float: left;
     text-decoration: none;
     position: relative;
@@ -86,7 +86,7 @@ outline: none;
       color: #7e7f84;
       font-weight: normal;
       font-family: "Roboto", sans-serif;
-      padding: 10px 20px;
+      padding: 10px 25px;
       border: 1px solid #eeeeee;
     }
 
@@ -122,7 +122,7 @@ outline: none;
     .navigation_user li a {
       font-family: "Roboto", sans-serif;
       display: block;
-      padding: 15px 25px;
+      padding: 15px 20px;
       font-size: 0.875em;
       color: #7e7f84;
       text-transform: uppercase;
@@ -167,7 +167,7 @@ outline: none;
 
     .carousel-item h2{
       position: absolute;
-      top: 150px;
+      top: 200px;
       left: 50px;
       font-size: 3.75em;
       font-weight: bold;
@@ -177,7 +177,7 @@ outline: none;
 
     .carousel-item p{
       position: absolute;
-      top: 300px;
+      top: 345px;
       left: 50px;
       font-size: 0.875em;
       font-weight: normal;
@@ -225,7 +225,7 @@ outline: none;
 /* Продукция */
 
 .products_main {
-  margin-top: 35px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -234,7 +234,7 @@ outline: none;
     font-size: 1.375em;
     text-transform: uppercase;
     font-family: "Roboto Condensed", sans-serif;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
   }
 
   .products_blok4 {
@@ -249,7 +249,7 @@ outline: none;
   }
 
    .img_container {
-     font-size: 0;
+
    }
 
      .img_container img {
@@ -257,7 +257,7 @@ outline: none;
      }
 
    .products_blok4__content {
-     padding: 15px 15px 0 15px;
+     padding: 20px 20px 5px 20px;
      border: 1px solid #eeeeee;
      border-top: 0;
    }
@@ -286,13 +286,13 @@ outline: none;
 
      .products_blok4__content p {
        font-size: 0.625em;
-       color: #67686d;
+       color: #7e7f84;
        font-family: "Roboto Light", sans-serif;
-       margin-bottom: 10px;
+       margin-bottom: 13px;
      }
 
      .products_blok4__by {
-       padding: 12px 0;
+       padding: 13px 0;
        border-top: 1px solid #eeeeee;
      }
 
@@ -315,8 +315,8 @@ outline: none;
   font-size: 1.375em;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
   .about__text {
@@ -330,7 +330,7 @@ outline: none;
       font-size: 0.875em;
       font-style: italic;
       font-family: "Roboto", sans-serif;
-      margin-bottom: 25px;
+      margin-bottom: 30px;
     }
 
   .about__map {
@@ -356,7 +356,7 @@ outline: none;
 
 .form_email {
   background-color: #f45a40;
-  margin-top: 35px;
+  margin-top: 50px;
 }
 
   .form_email__text {
@@ -378,7 +378,7 @@ outline: none;
     font-size: 0.875em;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
-    padding: 13px;
+    padding: 13px 20px;
     border: 0;
     box-sizing: border-box;
     width: 247px;
