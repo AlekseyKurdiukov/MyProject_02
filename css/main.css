@@ -502,29 +502,17 @@ outline: none;
   .carousel-item h2{
     position: absolute;
     top: 100px;
-    left: 50px;
     font-size: 3em;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
-    color: #f45a40;
   }
 
   .carousel-item p{
     position: absolute;
     top: 220px;
-    left: 50px;
-    font-size: 0.875em;
-    font-weight: normal;
-    font-family: "Roboto Medium", sans-serif;
-    color: #f45a40;
-    line-height: 1.5em;
   }
 
   .products_blok4 {
-    float: left;
     width: 46%;
     margin: 0 2%;
-    line-height: 1em;
     margin-bottom: 30px;
   }
 
@@ -543,43 +531,27 @@ outline: none;
      }
 
    .products_blok4__content {
-     padding: 15px 15px 0 15px;
      border: 0;
-     border-top: 0;
    }
 
-     .by__icon {
-       float: right;
-       width: 16px;
-     }
-
- .footer_blok {
-   float: left;
+ .footer_main__blok {
    width: 46%;
    margin: 0 2%;
-   line-height: 1.3em;
  }
 
- .footer_blok:last-child {
+ .footer_main__blok:last-child {
    margin-right: 2%;
  }
 
  .about h2 {
-   color: #67686d;
-   font-size: 1.375em;
-   font-weight: bold;
-   font-family: "Roboto", sans-serif;
    margin-top: 5px;
-   margin-bottom: 35px;
  }
 }
 
 @media (max-width: 870px) {
   .news_blok3 {
-    float: left;
     width: 96%;
     margin: 0 2%;
-    line-height: 1.3em;
     margin-bottom: 30px;
   }
 
@@ -598,62 +570,38 @@ outline: none;
 
 @media (max-width: 835px) {
   .carousel-item h2{
-    position: absolute;
     top: 70px;
-    left: 50px;
     font-size: 2em;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
-    color: #f45a40;
   }
 
   .carousel-item p{
-    position: absolute;
     top: 150px;
-    left: 50px;
-    font-size: 0.875em;
-    font-weight: normal;
-    font-family: "Roboto Medium", sans-serif;
-    color: #f45a40;
-    line-height: 1.5em;
   }
 
-  .form_email {
-    background-color: #f45a40;
-    margin-top: 35px;
+  .form_email__text {
+    float: none;
+    padding: 15px 0;
+    display: block;
     text-align: center;
   }
 
-    .form_email__text {
-      float: none;
-      color: white;
-      text-transform: uppercase;
-      font-size: 1.375em;
-      font-family: "Roboto Condensed", sans-serif;
-      padding: 15px 0;
-      display: block;
-    }
-
-    .form_email__forma {
-      float: none;
-      padding: 0 0 15px 0;
-      display: block;
-      margin: 0 auto;
-    }
+  .form_email__forma {
+    float: none;
+    padding: 0 0 15px 0;
+    display: block;
+    text-align: center;
+  }
 
   .about h2 {
     margin-left: 2%;
   }
 
   .about__text {
-    float: none;
     width: 96%;
     margin: 0 2%;
-    line-height: 1.3em;
   }
 
   .about__map {
-    float: none;
     width: 96%;
     margin: 0 2%;
   }
@@ -667,7 +615,6 @@ outline: none;
 
   .header_two__poisk {
     float: none;
-    padding: 15px 20px;
     margin: 0 auto;
     display: table;
   }
@@ -675,39 +622,23 @@ outline: none;
 
 @media (max-width: 580px) {
   .carousel-item h2{
-    position: absolute;
     top: 50px;
-    left: 50px;
     font-size: 1.5em;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
-    color: #f45a40;
   }
 
   .carousel-item p{
-    position: absolute;
     top: 110px;
-    left: 50px;
-    font-size: 0.875em;
-    font-weight: normal;
-    font-family: "Roboto Medium", sans-serif;
-    color: #f45a40;
-    line-height: 1.5em;
   }
 
   .products_blok4 {
-    float: left;
     width: 96%;
     margin: 0 2%;
-    line-height: 1em;
     margin-bottom: 30px;
   }
 
-  .footer_blok {
-    float: left;
+  .footer_main__blok {
     width: 96%;
     margin: 0 2%;
-    line-height: 1.3em;
     text-align: center;
     margin-bottom: 20px;
   }
